@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Browser extensions manager UI</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/slider.css" />
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+
+  <body class="light">
+    <div class="container">
+      <nav>
+        <div class="left">
+          <img src="assets/images/logo.svg" alt="" />
+        </div>
+        <div class="right">
+          <button id="mode"></button>
+        </div>
+      </nav>
+
+      <header>
+        <h2>Extensions List</h2>
+        <div class="btns">
+          <button class="btn">All</button>
+          <button class="btn">Active</button>
+          <button class="btn">Inactive</button>
+        </div>
+      </header>
+      <section class="cards"></section>
+    </div>
+
+    <div
+      class="attribution"
+      style="
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        display: block;
+        background-color: var(--items-bg);
+        color: var(--main-text);
+        padding-bottom: 5xp;
+      "
+    >
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by
+      <a href="https://www.frontendmentor.io/profile/Ah-Essam">Ahmed Essam</a>.
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

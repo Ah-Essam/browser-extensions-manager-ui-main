@@ -1,0 +1,63 @@
+/* ===== switchs ===== */
+.switch {
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 2.25em;
+  height: 1.2em;
+  margin: 3px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  inset: 0;
+  background: var(--mode-hover);
+  border-radius: 50px;
+  transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  width: calc(100% + 6px);
+  height: calc(100% + 6px);
+  top: -3px;
+  left: -3px;
+  border-radius: 50px;
+}
+
+.slider:after {
+  position: absolute;
+  content: "";
+  height: 0.7em;
+  width: 0.7em;
+  left: 0.25em;
+  bottom: 0.25em;
+  background-color: white;
+  border-radius: inherit;
+  transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.switch input:focus + .slider {
+  box-shadow: 0 0 1px #59d102;
+}
+.switch input:focus + .slider:before {
+  outline: 3px solid hsl(3, 77%, 44%);
+}
+
+.switch input:checked + .slider:after {
+  transform: translateX(150%);
+}
+
+.switch input:checked + .slider {
+  background-color: hsl(3, 77%, 44%);
+}
+
+/* ===== mode btn ===== */
