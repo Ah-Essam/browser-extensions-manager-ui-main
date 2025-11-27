@@ -159,7 +159,8 @@ header .btns {
 }
 
 .card {
-  max-width: 400px;
+  width: 400px;
+  min-width: 350px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -213,4 +214,5 @@ header .btns {
     width: fit-content;
   }
 }
+
 
