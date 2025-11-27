@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL:(https://github.com/Ah-Essam/browser-extensions-manager-ui-main)
+- Live Site URL:(browser-extensions-manager-ui-main-steel-nine.vercel.app)
 
 ## My process
 
