@@ -159,7 +159,7 @@ header .btns {
 }
 
 .card {
-  max-width: 350px;
+  max-width: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -203,7 +203,7 @@ header .btns {
 
 @media (min-width: 650px) {
   .container {
-    padding: 50px 90px;
+    padding: 30px;
   }
   header {
     flex-direction: row;
@@ -213,3 +213,4 @@ header .btns {
     width: fit-content;
   }
 }
+
